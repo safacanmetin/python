@@ -1,17 +1,8 @@
-n = int(input('Enter an integer: '))
+# n is input integer 
 
-result = 0
-maximum = 0
-
-while n > 0:
-    if n % 2 == 1:
-        result += 1
-        if result > maximum:
-            maximum = result
-
-    else:
-        result = 0
-
-    n //= 2
-
-print(result)
+def func(num):
+        return num[2:]
+    
+    n = int(input().strip())
+    a = max(func(bin(n)).split('0')).count('1')
+    print(a)
