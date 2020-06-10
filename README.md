@@ -2,8 +2,6 @@
 
 first line input (N) is the size of our array which is in second line of input
 
-The code:
-
-- reverse list
-- print the array list values as they are transformed to a tuple which has string values inside.
+- list&array -> reverse list
+- consecutive1's -> how many consecutive 1s in a binary number
 
