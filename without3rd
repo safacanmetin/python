@@ -1,0 +1,8 @@
+# change the values of two numeric variables without using a third variable
+first = 1
+second = 2
+print("Before change, first: {}, second: {}".format(first,second))
+first = first + second # first=3 second=2
+second = first - second # first=3 second=1
+first = first - second # first=2 second=1
+print("After change, first: {}, second: {}".format(first,second))
